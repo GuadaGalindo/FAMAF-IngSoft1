@@ -1,0 +1,1 @@
+Proyecto correspondiente a la interfaz del juego "Switcher" creada con React + Vite

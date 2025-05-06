@@ -1,0 +1,14 @@
+.tablero {
+  display: grid;
+  grid-template-columns: repeat(6, 50px);
+  grid-template-rows: repeat(6, 50px);
+  gap: 10px;
+
+  background-color: #452c20;
+  border: 10px solid #745031;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  width: calc(6 * 50px + 5 * 10px + 40px);
+  height: calc(6 * 50px + 5 * 10px + 40px);
+}

@@ -1,0 +1,56 @@
+.player-info {
+    border-radius: 15px;
+    /* Rounded corners */
+    box-shadow: 0 0 0 rgba(220, 220, 220, 0.84);
+    /* Start with no shadow */
+    background-color: transparent;
+    /* Start with transparent background */
+    transition: background-color 0.5s ease, box-shadow 0.5s ease, transform 0.5s ease;
+    transform: scale(1);
+    /* No scale initially */
+}
+
+/* On active player turn */
+.player-info-turn {
+    background-color: #ffffff;
+    /* Light background to highlight */
+    /* border: 2px solid gold; */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    /* Subtle shadow */
+    transform: scale(1);
+    /* Slight scale-up to emphasize the player */
+}
+
+.player-info img {
+    height: 100px;
+}
+
+@media (max-width: 1500px) {
+    .player-info img {
+        height: 70px;
+    }
+}
+
+.color-indicator {
+    display: inline-block;
+    width: 16px;    /* Ajusta el tamaño si es necesario */
+    height: 16px;
+    border-radius: 0%;
+  }
+  
+  .color-indicator.green {
+    background-color: #00aa2d;
+  }
+  
+  .color-indicator.red {
+    background-color: #c81a1a;
+  }
+  
+  .color-indicator.yellow {
+    background-color: #eac41a;
+  }
+  
+  .color-indicator.blue {
+    background-color: #174fde;
+  }
+  

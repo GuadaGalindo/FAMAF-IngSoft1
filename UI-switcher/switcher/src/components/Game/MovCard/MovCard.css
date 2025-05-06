@@ -1,0 +1,30 @@
+.mov-card {
+    outline: none;
+}
+
+.mov-card.focused img {
+    filter: drop-shadow(0 0 14px #ff2600);
+    transform: scale(1.1);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.mov-card img {
+    height: 200px;
+    user-select: none;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+@media (max-width: 1500px) {
+    .mov-card img {
+        height: 130px;
+    }
+}
+
+.disabled {
+    pointer-events: none;  /* Desactiva el clic */
+    opacity: 0.5;  /* Reduce la opacidad de las cartas deshabilitadas */
+}
+  
+.disabled-img {
+    filter: grayscale(100%);  /* Aplica escala de grises a las imágenes deshabilitadas */
+}

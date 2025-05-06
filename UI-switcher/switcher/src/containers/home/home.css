@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Seaside Resort NF';
+    src: url('../../assets/fonts/seasideresortnf2.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Voltixe';
+    src: url('../../assets/fonts/Voltixe.ttf');
+}
+
+* {
+    font-family: "Voltixe", sans-serif;
+}
+
+:root {
+    --title-color: #244031;
+    --title-bg-color: #8ABFAB99;
+    --subtitle-bg-color: #E86514;
+}
+
+.title {
+    font-family: 'Seaside Resort NF', Arial, sans-serif !important;
+    font-size: 100px;
+    color: var(--title-color);
+}
+
+.title-container {
+    background-color: var(--title-bg-color);
+}
+
+.title-upper-line,
+.title-bottom-line {
+    background-color: var(--title-bg-color);
+    height: 10px;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.subtitle-container {
+    background-color: var(--subtitle-bg-color);
+}
+
+.subtitle-upper-line {
+    background-color: var(--subtitle-bg-color);
+    height: 5px;
+    margin-bottom: 1px;
+}
+.subtitle-bottom-line {
+    background-color: var(--subtitle-bg-color);
+    height: 5px;
+    margin-top: 1px;
+}
