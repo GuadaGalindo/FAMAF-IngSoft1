@@ -4,10 +4,11 @@ Proyecto de la materia **"Ingenieria del Software 1"** de 3er año (2do cuatrime
 
 Para mas información leer los README del back y el front respectivamente
 
-### Autora
+### Autores
 
-**Guadalupe Galindo**  
-Estudiante de Ciencias de la Computación FAMAF - UNC
-
-- [LinkedIn](https://linkedin.com/in/guadagalindo)
-- [GitHub](https://github.com/GuadaGalindo)
+- [Guadalupe Galindo](https://github.com/GuadaGalindo)
+- [Felipe Jimenez](https://github.com/felijimeneez)
+- [Juan Pablo Ludueña](https://github.com/juanpluduena)
+- [Jazmin Caruso](https://github.com/JazminCR)
+- [Tomás Romanutti](https://github.com/TRomanutti)
+- [Dianela Fernandez](https://github.com/Dianefz)
